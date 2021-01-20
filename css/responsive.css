@@ -1,0 +1,187 @@
+@media (max-width: 575px) {
+/*==== HEADER-SECTION ====*/
+	section {
+		padding: 50px 0;
+	}
+	.middle h1 {
+		font-size: 50px;
+	}
+	.flex-xs-column-reverse {
+		flex-direction: column-reverse;
+	}
+/*==== IMG-SECTION ====*/	
+	.img-box-1,
+	.img-box-2,
+	.img-box-3 {
+		margin-bottom: 40px;
+	}
+	.img-box {
+		text-align: center;
+	}
+}
+@media (max-width: 991px) {
+/*==== HEADER-SECTION ====*/
+	.middle {
+		margin-top: 50px;
+	}
+	.middle h1 {
+		margin: 40px 0;
+	}
+/*==== DEVELOPMENT & IDENTITY SECTION ====*/
+	.text-img-1 img {
+		margin-bottom: 50px;
+		margin-top: 0px;
+	}
+	.text-img-2 img {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	.development-identity {
+		text-align: center;
+	}
+	.flow-img {
+		text-align: center;	
+	}
+/*==== SERVICE-SECTION ====*/
+	.service-box {
+		text-align: center;
+	}
+/*==== CLIENTS-SECTION ====*/
+	.client-img img  {
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.client-text {
+		text-align: center;
+	}
+/*==== TEAM-SECTION ====*/
+	.team-box {
+		margin-bottom: 60px !important;
+	}
+/*==== HELLO-SECTION ====*/
+	.hello-link ul:nth-child(1),
+	.hello-link ul:nth-child(2) {
+		margin-bottom: 0px;
+	}
+	.hello-link ul li {
+		display: block !important;
+	}
+	.hello-link ul li.li-2,
+	.hello-link ul li.li-4,
+	.hello-link ul li.li-6 {
+		margin: 20px 0px;
+	}
+}
+@media (max-width: 767px) {
+/*==== HEADER-SECTION ====*/
+	/*==== MENU ====*/
+	.menu ul {
+		margin-top: 30px;
+	}
+	.menu ul li:first-child {
+		margin-left: 30px;
+ 	}
+	.menu ul li:first-child a::after {
+		background: transparent;
+ 	}
+	.menu ul li a::after {
+		background: transparent;
+ 	}
+/*==== DEVELOPMENT & IDENTITY SECTION ====*/
+	h2.heading-title {
+		font-size: 50px;
+	}
+/*==== SERVICE-SECTION ====*/
+	.offset {
+		margin-left: 0%;
+	}
+	.service-text-box {
+		margin-bottom: 48px;
+	}
+/*==== HELLO-SECTION ====*/
+	.hello-title h2,
+	.hello-title p {
+		text-align: center !important;
+	}
+	.hello-form {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.hello-link ul li {
+		display: inline-block !important;
+	}
+	.hello-link ul li.li-2{
+		margin-left: 58px;
+	}
+	.hello-link ul li.li-4{
+		margin-left: 100px;
+	}
+	.hello-link ul li.li-6{
+		margin-left: 27px;
+	} 
+}
+@media (max-width: 521px) {
+/*==== DEVELOPMENT & IDENTITY SECTION ====*/
+	h2.heading-title {
+		font-size: 35px;
+	}
+/*==== ALL P TAG =====*/
+	p.paragraph {
+		font-size: 16px;
+	}
+/*==== CLIENTS-SECTION ====*/
+	.client-text {
+		padding: 35px 15px;
+	}
+	p.client-p-1 {
+		font-size: 20px;
+	}
+	p.client-p-2 {
+		font-size: 19px;
+	}
+}
+@media (max-width: 635px) {
+/*==== CLIENTS-SECTION ====*/
+	.client-row-1 {
+		padding: 0 25px !important;
+	}
+	.client-row-2 {
+		padding: 0 40px !important;
+	}
+}
+@media (max-width: 481px) {
+/*==== HELLO-SECTION ====*/
+	.hello-link ul li {
+		display: block !important;
+	}
+	.hello-link ul {
+		text-align: center;
+	}
+	.hello-link ul li.li-2,
+	.hello-link ul li.li-4,
+	.hello-link ul li.li-6 {
+		margin-left: 0;
+	}
+} 
+@media (min-width: 768px) and (max-width: 991px) {
+/*==== HEADER-SECTION ====*/
+	.middle {
+		margin-top: 70px;
+	}
+	.middle h1 {
+		margin: 40px 0;
+	}
+}
+@media (max-width: 575px) {
+/*==== HEADER-SECTION ====*/
+	.middle {
+		margin-top: 40px;
+	}
+	.middle h1 {
+		font-size: 45px;
+		margin: 40px 0;
+	}
+	.middle p {
+		font-size: 26px;
+	}
+}
